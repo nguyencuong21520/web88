@@ -1,0 +1,12 @@
+{
+  "name": "lesson3_te",
+  "version": "1.0.0",
+  "description": "Backend API for customer, product and order management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
