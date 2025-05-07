@@ -4,11 +4,14 @@ import { Customer } from "./src/model/customer.model.js";
 import { authorization } from "./src/middlewares/authorization.js";
 import { randomString } from "./src/config/common.config.js";
 
+
+
 const app = express();
 const PORT = 3045;
 
 
 app.use(express.json());
+
 
 //connect to DB
 connectDB()
