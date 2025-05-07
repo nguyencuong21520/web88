@@ -1,3 +1,6 @@
+import { User } from "../model/user.model.js";
+import bcrypt from "bcrypt";
+
 const authController = {
   login: async (req, res) => {
 
@@ -31,8 +34,6 @@ const authController = {
       salt
     })
     
-    
-
     res.status(200).json({
       message: "register successfully",
       user: newUser
