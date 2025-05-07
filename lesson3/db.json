@@ -1,0 +1,130 @@
+{
+  "customers": [
+    {
+      "id": "cust001",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "age": 30
+    },
+    {
+      "id": "cust002",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "age": 25
+    },
+    {
+      "id": "cust003",
+      "name": "Bob Wilson",
+      "email": "bob@example.com",
+      "age": 35
+    },
+    {
+      "id": "cust004",
+      "name": "Alice Brown",
+      "email": "alice@example.com",
+      "age": 28
+    },
+    {
+      "id": "cust005",
+      "name": "Charlie Davis",
+      "email": "charlie@example.com",
+      "age": 42
+    },
+    {
+      "id": "xqm7i9u65s7001rhz8y8n",
+      "name": "NVC",
+      "email": "a@gmail.com",
+      "age": 20
+    }
+  ],
+  "products": [
+    {
+      "id": "prod001",
+      "name": "Laptop",
+      "price": 15000000,
+      "quantity": 10
+    },
+    {
+      "id": "prod002",
+      "name": "Smartphone",
+      "price": 8000000,
+      "quantity": 20
+    },
+    {
+      "id": "prod003",
+      "name": "Tablet",
+      "price": 12000000,
+      "quantity": 15
+    },
+    {
+      "id": "prod004",
+      "name": "Headphones",
+      "price": 2000000,
+      "quantity": 30
+    },
+    {
+      "id": "prod005",
+      "name": "Smartwatch",
+      "price": 5000000,
+      "quantity": 25
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "order001",
+      "customerId": "cust001",
+      "productId": "prod001",
+      "quantity": 1,
+      "totalPrice": 15000000,
+      "id": "957d"
+    },
+    {
+      "orderId": "order002",
+      "customerId": "cust002",
+      "productId": "prod002",
+      "quantity": 2,
+      "totalPrice": 16000000,
+      "id": "d336"
+    },
+    {
+      "orderId": "order003",
+      "customerId": "cust003",
+      "productId": "prod003",
+      "quantity": 1,
+      "totalPrice": 12000000,
+      "id": "15d8"
+    },
+    {
+      "orderId": "order004",
+      "customerId": "cust004",
+      "productId": "prod004",
+      "quantity": 3,
+      "totalPrice": 6000000,
+      "id": "8466"
+    },
+    {
+      "orderId": "order005",
+      "customerId": "cust005",
+      "productId": "prod005",
+      "quantity": 1,
+      "totalPrice": 5000000,
+      "id": "72e1"
+    },
+    {
+      "orderId": "order006",
+      "customerId": "cust001",
+      "productId": "prod002",
+      "quantity": 1,
+      "totalPrice": 8000000,
+      "id": "2e6f"
+    },
+    {
+      "orderId": "order007",
+      "customerId": "cust002",
+      "productId": "prod003",
+      "quantity": 2,
+      "totalPrice": 24000000,
+      "id": "4a75"
+    }
+  ]
+}
